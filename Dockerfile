@@ -6,4 +6,5 @@ RUN apk update \
                 /root/.local/share/fonts \
                 /root/.fonts \
                 /root/.cache/fontconfig \
-                /root/.fontconfig            
+                /root/.fontconfig \
+                && rm -rf /var/cache/apk/*
